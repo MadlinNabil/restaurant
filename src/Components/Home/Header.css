@@ -1,0 +1,54 @@
+header{
+    background: url(./../../assets/3.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: left;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+header .row{
+    margin: 50px 0px;
+}
+header h2{
+    color: #43121D;
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    width: 80%;
+}
+header p{
+    color: #43121D;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+header button{
+    background-color: #A82D49;
+    color: #fff;
+    border: 1px solid #A82D49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center ;
+    margin: 20px 10px 20px 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+header button:last-of-type {
+    background-color: #fff;
+    color: #000;
+
+}
+header button:hover{
+    transition: 0.2s ease-in-out;
+}
+header button:first-of-type:hover {
+    background-color: transparent;
+    color: #A82D49;
+}
+header button:last-of-type:hover {
+    background-color: #A82D49;
+    color: #fff;
+}
